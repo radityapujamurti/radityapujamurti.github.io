@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<div style="margin-top:20px" id="home">
+  {% for item in site.data.tags_list.tags %}
+  <a href="{{ site.baseurl }}/{{ item.url }}"><button class="w3-button w3-black">{{ item.title }}</button></a>
+  {% endfor %}
+  <br>
+  <h2>All posts</h2>
+  <div class="posts">
+    {% for post in site.posts %}
+      <article class="post">
+        {% if post.cover %}
+        <img src="{{ site.baseurl }}/images/{{ post.cover }}" alt="">
+        {% endif %}
+        <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+        <div class="date">
+          Last updated on {{ post.date | date: "%B %e, %Y" }}
+        </div>
+        <div class="entry">
+          {{ post.excerpt }}
+        </div>
+        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      </article>
+    {% endfor %}
+  </div>
+</div>

@@ -1,0 +1,17 @@
+tags:
+
+- title: All
+  url: all
+
+- title: Web Dev
+  url: web_dev
+
+- title: Database
+  url: database
+
+- title: Data Science
+  url: data_science
+
+- title: Others
+  url: others
+
