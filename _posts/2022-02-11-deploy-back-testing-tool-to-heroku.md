@@ -2,9 +2,11 @@
 layout: post
 title: Deploying Trading Strategy Back Test Tool To Heroku
 tags: data_science
-cover: 
+cover:
 excerpt: After building the back test tool, it is time to share it with others.
 ---
+
+![](/images/blog/streamlit_intro/deploy-heroku.png)
 
 > You can access the tool [here](https://backtestr.herokuapp.com/). The initial loading time is quite long, but hey, it is free hosting :)
 
@@ -20,7 +22,6 @@ After several copy and paste effort from StackOverflow, the issue was resolved, 
 
 Now the tool is available online and you can see that most of the trading strategies are not profitable 💸
 
-![](/images/blog/streamlit_intro/1.gif)
 
 You can change any parameters easily and there is a simple statistical summary of the trading strategy performance. 
 
