@@ -14,7 +14,7 @@ Recently I discovered about Streamlit Python library. It makes building a data s
 
 You can watch an excellent video on how to create a web app using Streamlit on the following video. FreeCodeCamp has a wide variety of useful videos, for free! So support them by subscribing to the channel!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JwSS70SZdyM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/JwSS70SZdyM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## The problem
 I wanted to perform back testing to a trading strategy that I have. However, testing manually on a long period of historical data is too tedious and time consuming.

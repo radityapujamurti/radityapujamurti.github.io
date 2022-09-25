@@ -26,6 +26,6 @@ Initially I wanted to help those who want to learn programming, more specificall
 
 If you understand Bahasa Indonesia, good news! Here is one video for you:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TUBbgG3Jino" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/TUBbgG3Jino" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Hope this post can be useful for you!
