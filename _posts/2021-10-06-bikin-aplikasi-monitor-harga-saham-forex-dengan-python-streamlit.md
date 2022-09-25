@@ -3,7 +3,7 @@ layout: post
 title: Bikin Aplikasi Web Untuk Monitor Harga Saham Dan Forex Dengan Python Dan Streamlit
 tags: data_science
 cover:
-excerpt: In this article we are going to create a web app with Python and Streamlit to help us easily monitor forex and stock finance data from Yahoo Finance. This post is in Bahasa Indonesia so you might want to use Google Translate :) 
+excerpt: In this article we are going to create a web app with Python and Streamlit to help us easily display forex and stock price from Yahoo Finance. This post is in Bahasa Indonesia so you might want to use Google Translate :) 
 ---
 
 ![Hasil akhir aplikasi web dengan python dan streamlit](/images/blog/streamlit_intro/price-monitoring.png)
@@ -14,8 +14,7 @@ Objektif kita kali ini adalah bikin aplikasi web dengan Python dan Streamlit den
 - Menampilkan tabel harga OHLCV
 - Menampilkan candle stick chart
 
-![not bad](https://media1.giphy.com/media/1URYTNvDM2LJoMIdxE/200.webp?cid=ecf05e47qr0tc38dhwn198vn8cnju8aegygn1ntlbsun1thz&rid=200.webp&ct=g)
-*not bad...*
+![not bad](https://media1.giphy.com/media/1URYTNvDM2LJoMIdxE/200.webp?cid=ecf05e47qr0tc38dhwn198vn8cnju8aegygn1ntlbsun1thz&rid=200.webp&ct=g) *ok not bad...*
 
 ### Setup Streamlit
 Streamlit adalah sebuah library Python yang punya banyak komponen untuk membuat aplikasi web data science.
@@ -64,9 +63,13 @@ def get_ticker_data(ticker_symbol, data_period, data_interval):
     return ticker_data
 {% endhighlight %}
 
+Library yfinance bisa kita pakai untuk mendapatkan harga aset tertentu. Di line 2, kita bisa tentukan ticker symbol, periode dan interval data sesuai input dari sidebar.
+
 Satu hal yang penting adalah untuk menghilangkan *gap* karena market tutup saat weekend. Salah satu caranya dengan merubah format index dataframe di line 7.
 
-#### Membuat candle stick chart
+#### Visualisasi data
+Salah satu aspek penting dalam data science adalah visualisasi data. Di kasus ini, ada beberapa pilihan untuk visualisasi data seperti line chart atau candlestick chart. Candlestick chart akan dipakai di aplikasi ini karena lebih memudahkan untuk melihat *gain* (hijau) dan *loss* (merah) di suatu periode. Candlestick chart juga berguna untuk menentukan candlestick pattern seperti *bullish engulfing*.
+
 ```py
 def plot_candle_chart(ticker_data):
     candle_fig = go.Figure()
