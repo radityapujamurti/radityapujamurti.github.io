@@ -3,7 +3,7 @@ layout: post
 title: Deploying Trading Strategy Back Test Tool To Heroku
 tags: data_science
 cover:
-excerpt: After building the back test tool, it is time to share it with others.
+excerpt: After building the back test tool, it is time to share it with others. The tool is free to use and hopefully can show that most trading strategies are not profitable.
 ---
 
 ![](/images/blog/streamlit_intro/deploy-heroku.png)

@@ -3,7 +3,7 @@ layout: post
 title: How Creating Programming Tutorial Videos on YouTube Makes Me A Better Programmer
 tags: others
 cover: 
-excerpt: During semester holiday, I learned how to make programming tutorial videos. Now I appreciate those who can make engaging tutorial videos.
+excerpt: During semester holiday, I learned how to make programming tutorial videos. Initially it was intended as a free channel to share my knowledge but turns out it is a great source of motivation for me to keep learning. 
 ---
 
 Let’s get straight to the points!
