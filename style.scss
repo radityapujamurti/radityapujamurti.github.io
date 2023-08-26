@@ -18,9 +18,9 @@ html {
 }
 
 body {
-	background: $lightGray;
+	background: $darkerGray;
   font: 18px/1.4 $raleway;
-  color: $black;
+  color: $white;
 }
 
 .container {
@@ -31,7 +31,6 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: $darkerGray;
   font-weight: bold;
 
   line-height: 1.3;
@@ -60,12 +59,15 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: $gray;
 }
 
 p {
   margin: 15px 0;
 }
+
+.post h3 {
+  margin-bottom: 0;
+}  
 
 .post a {
   color: $orange;
@@ -272,17 +274,17 @@ nav i.fa-remove {
 }
 
 .posts > .post {
-  background: white;
+  background: $lightGray;
+  color: $black;
   padding: 1em;
-  border-bottom: 1px solid $lightGray;
   transition: box-shadow .3s;
   margin-bottom: 1em;
-  box-shadow: 0 0 0 rgba(33,33,33,.2);
+  box-shadow: 0 0 0 #dadadabb;
   transition: box-shadow 0.2s ease-in-out;
 }
 
 .posts > .post:hover {
-  box-shadow: 0 21px 41px rgba(33,33,33,.2);
+  box-shadow: 0 5px 10px #dadadabb;
 }
 
 .posts > .post:last-child {
@@ -295,7 +297,6 @@ nav i.fa-remove {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
-    color: $gray;
     font-size: 22px;
     font-style: italic;
   }
