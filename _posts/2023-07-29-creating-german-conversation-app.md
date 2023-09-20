@@ -1,12 +1,20 @@
 ---
 layout: post
 title: Creating German Conversation App
-tags: others
+tags: AI
 cover: 
 excerpt: I created an app to help me learn spoken German by simulating daily conversation.
 ---
 
 <iframe src="https://www.youtube.com/embed/dvJnHjX9f4Q?si=J5sQBSVQ-oERBSve" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Main Features
+- Capture voice input and reply with audio response quickly.
+- Respond with the most appropriate answer, even though the input is not the same as expected.
+- Provide translation to texts.
+- Capture past answers to check any misunderstood answers by the automatic audio processing library.
+- Provide hints for the expected answers.
+- Responsive and interactive UI.
 
 ## Problem
 
