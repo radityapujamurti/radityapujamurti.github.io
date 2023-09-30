@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Showing SQL On Jupyter Notebook Using DuckDB 
-tags: tags 
+tags: data_science 
 excerpt: DuckDB can be a good alternative for analytical workload without the need to install external DB server. It also means we can show SQL results directly in .ipynb files.
 ---
 
