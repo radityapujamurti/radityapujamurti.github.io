@@ -8,7 +8,7 @@ excerpt: After building the back test tool, it is time to share it with others. 
 
 ![](/images/blog/streamlit_intro/deploy-heroku.png)
 
-> You can access the tool [here](https://backtestr.herokuapp.com/). The initial loading time is quite long, but hey, it is free hosting :) Update: Heroku recently removed free tier hosting so the app cannot be accessed anymore :(
+> You can access the tool [here](https://backtestr.herokuapp.com/). The initial loading time is quite long, but hey, it is free hosting Update: Heroku recently removed free tier hosting so the app cannot be accessed anymore :( Update 2: luckily Render provides free hosting. The app (renamed as Data Driven Trader) can be accessed [here](https://data-driven-trader.onrender.com/) :)
 
 In my [previous article]({% post_url 2021-08-19-manual-back-test-for-a-trading-strategy-is-time-consuming-so-i-created-a-web-app-to-do-it %}), I created a back testing tool with Python and Streamlit.
 
