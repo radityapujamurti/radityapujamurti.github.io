@@ -8,8 +8,6 @@ excerpt: I created an app to help me learn spoken German by simulating daily con
 
 <iframe src="https://www.youtube.com/embed/dvJnHjX9f4Q?si=J5sQBSVQ-oERBSve" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
->You can access the app [here](https://bit.ly/learn-spoken-german). ⚠️ Note: when opening the link, you will see a warning. This is because the web app is using a self-signed SSL certificate to avoid additional cost. No worry, there is no personal information needed to use the app. You can click 'advanced settings' or something similar to proceed to use the app and allow microphone permission. It is working on Chrome and Edge browser.
-
 ## Main Features
 - Capture voice input and reply with audio response quickly.
 - Respond with the most appropriate answer, even though the input is not the same as expected.
