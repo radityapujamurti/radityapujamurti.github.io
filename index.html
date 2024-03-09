@@ -27,15 +27,39 @@ layout: default
   </div>
   <br>
 
-  <div class="w3-row-padding w3-center">
+  <div class="w3-row-padding w3-center" id="projects">
     <h1 class="w3-center">Projects</h1>
+    <div class="container">
+        <a href="{{ site.baseurl }}{% post_url 2024-03-09-e-commerce-data-analysis %}">
+            <div class="w3-card-4 project-card">
+                <img src="{{ site.baseurl }}/images/blog/e-commerce-data-analysis/e-commerce-dashboard.png" alt="Tableau E-commerce Dashboard">
+                <h3>E-commerce Data Analytics & Interactive Dashboard</h3>
+                <span class="w3-tag w3-round-large w3-orange">Data Analytics</span>
+                <span class="w3-tag w3-round-large w3-orange">EDA</span>
+                <span class="w3-tag w3-round-large w3-orange">Data Cleaning</span>
+                <span class="w3-tag w3-round-large w3-orange">Python</span>
+                <span class="w3-tag w3-round-large w3-orange">Pandas</span>
+                <span class="w3-tag w3-round-large w3-orange">Tableau</span>
+                <div class="w3-container">
+                <p>This project includes an interactive dashboard using Tableau. You can change various parameters such as moving average period and top N sales/expenses. When certain period is selected, other dashboard components will be adjusted automatically. Exploratory data analysis (EDA) and data cleaning were also performed to ensure more accurate results.</p>
+                </div>
+            </div>
+        </a>
+    </div>
+    <br>
     <div class="w3-half">
         <a href="{{ site.baseurl }}{% post_url 2023-07-29-creating-german-conversation-app %}">
             <div class="w3-card-4 project-card">
                 <img src="{{ site.baseurl }}/images/projects/lsg.png" alt="LSG">
                 <h3>Practice German With AI</h3>
                 <span class="w3-tag w3-round-large w3-orange">Machine Learning</span>
-                <span class="w3-tag w3-round-large w3-orange">Fullstack Web Development</span>
+                <span class="w3-tag w3-round-large w3-orange">NLP</span>
+                <span class="w3-tag w3-round-large w3-orange">Transformer Model</span>
+                <span class="w3-tag w3-round-large w3-orange">Python</span>
+                <span class="w3-tag w3-round-large w3-orange">Javascript</span>
+                <span class="w3-tag w3-round-large w3-orange">FastAPI</span>
+                <span class="w3-tag w3-round-large w3-orange">Svelte</span>
+                <span class="w3-tag w3-round-large w3-orange">Linux</span>
                 <div class="w3-container">
                 <p>Practice German conversation without fear. The app focuses on providing speedy response to make simulated conversation more natural, without using expensive large language models (LLMs) such as GPT by Open AI.</p>
                 </div>
@@ -47,11 +71,12 @@ layout: default
             <div class="w3-card-4 project-card">
                 <img src="{{ site.baseurl }}/images/projects/ddt.png" alt="DDT">
                 <h3>Data Driven Trader</h3>
-                <span class="w3-tag w3-round-large w3-orange">Python</span>
-                <span class="w3-tag w3-round-large w3-orange">Docker</span>
                 <span class="w3-tag w3-round-large w3-orange">Data Analysis</span>
+                <span class="w3-tag w3-round-large w3-orange">Python</span>
+                <span class="w3-tag w3-round-large w3-orange">Streamlit</span>
+                <span class="w3-tag w3-round-large w3-orange">Docker</span>
                 <div class="w3-container">
-                    <p>Test trading strategy with more data! With this no code app, we can measure different metrics with years of data. Results are displayed in comprehensive manner, which can help to prevent loss before adopting a new trading strategy.</p>
+                    <p>Test trading strategy with more data! With this no code app, we can measure different metrics with years of data. These metrics include Sharpe ratio and comparison vs buy and hold strategy. This app can help to prevent loss before adopting a new trading strategy.</p>
                 </div>
             </div>
         </a>

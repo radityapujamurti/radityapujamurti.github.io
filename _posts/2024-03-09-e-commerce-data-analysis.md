@@ -1,6 +1,6 @@
 ---
 layout: post
-title: E-commerce Data Analysis  
+title: E-commerce Data Analytics  
 tags: data_science
 excerpt: In this project, we will explore an e-commerce dataset using Python for data exploration and cleaning as well as Tableau to create a dashboard.
 ---
